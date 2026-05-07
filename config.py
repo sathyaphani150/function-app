@@ -1,5 +1,6 @@
 import os
 
+
 class Config:
-    API_KEY = os.getenv("API_KEY")
     ENV = os.getenv("ENV", "dev")
+    APP_NAME = os.getenv("APP_NAME", "TaskMonitorFunctionApp")
