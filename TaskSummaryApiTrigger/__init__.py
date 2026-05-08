@@ -12,6 +12,7 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
 
     team_name = req.params.get("team")
 
+    # Validate query parameter
     if not team_name:
         return func.HttpResponse(
             "Please provide team query parameter",

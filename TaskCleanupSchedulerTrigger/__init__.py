@@ -8,6 +8,7 @@ def main(mytimer) -> None:
 
     logging.info("Task cleanup scheduler started")
 
+    # Scheduled cleanup execution
     cleanup_result = cleanup_stale_tasks()
 
     logging.info(f"Cleanup Result: {cleanup_result}")

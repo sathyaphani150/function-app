@@ -1,6 +1,6 @@
 from datetime import datetime
 
-
+# Mock task data for task summary simulation
 mock_tasks = [
     {"id": 1, "team": "backend", "status": "completed"},
     {"id": 2, "team": "backend", "status": "pending"},
